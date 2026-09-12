@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/moon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MOONIFY — Because one Moon is never enough</title>
+    <meta name="description" content="A deliberately ridiculous computer-vision photo editor that replaces spherical light sources in an uploaded image with a high-resolution Moon." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-space-950 text-lunar-100 antialiased selection:bg-indigo-500/30 selection:text-white min-h-screen overflow-x-hidden">
+    <div id="root"></div>
+    <!-- Load OpenCV.js asynchronously with graceful runtime detection -->
+    <script>
+      window.Module = {
+        onRuntimeInitialized: function() {
+          window.isOpenCvReady = true;
+          window.dispatchEvent(new CustomEvent('opencv-ready'));
+          console.log('[Moonify CV] OpenCV.js WebAssembly runtime initialized.');
+        }
+      };
+    </script>
+    <script async src="https://docs.opencv.org/4.10.0/opencv.js" type="text/javascript"></script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
