@@ -58,13 +58,16 @@ npm run dev
 For Software:
 
 # Screenshots (Add at least 3)
-<img width="1832" height="1022" alt="Screenshot 2026-09-12 102151" src="https://github.com/user-attachments/assets/18fa7dde-cb37-4ba4-bdbf-e02c2a3b75de" />
+<img width="1832" height="1022" alt="Screenshot 2026-09-12 102151" src="https://github.com/user-attachments/assets/8193b0ac-d46f-48c2-b9af-50bf3b592c86" />
+
 
 After Moonification
 
-<img width="1832" height="1011" alt="image" src="https://github.com/user-attachments/assets/dc730a7a-adc9-409f-90eb-e9ced28ccad0" />
+<img width="1832" height="1011" alt="Screenshot 2026-09-12 105818" src="https://github.com/user-attachments/assets/c1cc245f-cef1-49c9-9499-29ce863544c7" />
 
-<img width="1837" height="1021" alt="image" src="https://github.com/user-attachments/assets/d172cc40-c67d-4674-937b-ebaa65d0e941" />
+
+<img width="1837" height="1021" alt="Screenshot 2026-09-12 105645" src="https://github.com/user-attachments/assets/44a238d9-8c28-4ddc-ba08-7fbc69fda332" />
+
 
 
 
